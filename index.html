@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AutoElite - Premium Car Dealership</title>
+  <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Material Design Icons (optional) -->
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app" class="container-fluid p-0">
+    <app-nav></app-nav>
+    <router-view></router-view>
+    <app-footer></app-footer>
+  </div>
+
+  <script src="https://unpkg.com/vue@3"></script>
+  <!-- Bootstrap Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <script src="js/vue-router.js"></script>
+  <script src="js/vuejs-paginate.js"></script>
+  <script src="js/components/app-home.js"></script>
+  <script src="js/components/app-dashboard.js"></script>
+  <script src="js/components/app-register.js"></script>
+  <script src="js/components/app-login.js"></script>
+  <script src="js/components/app-profile.js"></script>
+  <script src="js/components/app-models.js"></script>
+  <script src="js/components/app-cart.js"></script>
+  <script src="js/components/app-purchase.js"></script>
+  <script src="js/components/app-forgotpassword.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
